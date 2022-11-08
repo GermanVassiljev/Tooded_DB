@@ -230,6 +230,12 @@ namespace Tooded_DB
             Kat_cbox.SelectedIndex = Int32.Parse(v) - 1;
         }
 
+        private void sulge_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
         //Ещё исправить его позже
         //private void Kustuta_Kat_btn_CLick(object sender, EventArgs e)
         //{

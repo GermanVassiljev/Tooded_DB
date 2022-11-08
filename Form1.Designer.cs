@@ -44,16 +44,20 @@
             this.kustuta_kat_click = new System.Windows.Forms.Button();
             this.Kogus_int = new System.Windows.Forms.NumericUpDown();
             this.Hind_float = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.sulge = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.Toode_pbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Kogus_int)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Hind_float)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Toode_txt
             // 
             this.Toode_txt.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.Toode_txt.Location = new System.Drawing.Point(124, 22);
+            this.Toode_txt.Location = new System.Drawing.Point(124, 92);
             this.Toode_txt.Name = "Toode_txt";
             this.Toode_txt.Size = new System.Drawing.Size(145, 20);
             this.Toode_txt.TabIndex = 0;
@@ -64,7 +68,7 @@
             this.Toode_lbl.BackColor = System.Drawing.Color.SeaShell;
             this.Toode_lbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Toode_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.Toode_lbl.Location = new System.Drawing.Point(4, 22);
+            this.Toode_lbl.Location = new System.Drawing.Point(4, 92);
             this.Toode_lbl.Name = "Toode_lbl";
             this.Toode_lbl.Size = new System.Drawing.Size(116, 22);
             this.Toode_lbl.TabIndex = 3;
@@ -76,7 +80,7 @@
             this.kogus.BackColor = System.Drawing.Color.SeaShell;
             this.kogus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kogus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.kogus.Location = new System.Drawing.Point(41, 62);
+            this.kogus.Location = new System.Drawing.Point(41, 132);
             this.kogus.Name = "kogus";
             this.kogus.Size = new System.Drawing.Size(56, 22);
             this.kogus.TabIndex = 4;
@@ -88,7 +92,7 @@
             this.hind.BackColor = System.Drawing.Color.SeaShell;
             this.hind.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.hind.Location = new System.Drawing.Point(45, 103);
+            this.hind.Location = new System.Drawing.Point(45, 173);
             this.hind.Name = "hind";
             this.hind.Size = new System.Drawing.Size(44, 22);
             this.hind.TabIndex = 5;
@@ -100,7 +104,7 @@
             this.label3.BackColor = System.Drawing.Color.SeaShell;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label3.Location = new System.Drawing.Point(20, 148);
+            this.label3.Location = new System.Drawing.Point(20, 218);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 22);
             this.label3.TabIndex = 6;
@@ -110,14 +114,14 @@
             // 
             this.Kat_cbox.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.Kat_cbox.FormattingEnabled = true;
-            this.Kat_cbox.Location = new System.Drawing.Point(124, 148);
+            this.Kat_cbox.Location = new System.Drawing.Point(124, 218);
             this.Kat_cbox.Name = "Kat_cbox";
             this.Kat_cbox.Size = new System.Drawing.Size(145, 21);
             this.Kat_cbox.TabIndex = 7;
             // 
             // Toode_pbox
             // 
-            this.Toode_pbox.Location = new System.Drawing.Point(639, 186);
+            this.Toode_pbox.Location = new System.Drawing.Point(639, 261);
             this.Toode_pbox.Name = "Toode_pbox";
             this.Toode_pbox.Size = new System.Drawing.Size(145, 136);
             this.Toode_pbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -128,7 +132,7 @@
             // 
             this.Otsi_btn.BackColor = System.Drawing.Color.SeaShell;
             this.Otsi_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.Otsi_btn.Location = new System.Drawing.Point(559, 186);
+            this.Otsi_btn.Location = new System.Drawing.Point(559, 261);
             this.Otsi_btn.Name = "Otsi_btn";
             this.Otsi_btn.Size = new System.Drawing.Size(74, 30);
             this.Otsi_btn.TabIndex = 9;
@@ -141,7 +145,7 @@
             this.lisa_btn.BackColor = System.Drawing.Color.SeaShell;
             this.lisa_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.lisa_btn.ForeColor = System.Drawing.Color.Green;
-            this.lisa_btn.Location = new System.Drawing.Point(14, 186);
+            this.lisa_btn.Location = new System.Drawing.Point(14, 272);
             this.lisa_btn.Name = "lisa_btn";
             this.lisa_btn.Size = new System.Drawing.Size(161, 30);
             this.lisa_btn.TabIndex = 10;
@@ -154,7 +158,7 @@
             // 
             this.uuenda_btn.BackColor = System.Drawing.Color.SeaShell;
             this.uuenda_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.uuenda_btn.Location = new System.Drawing.Point(559, 235);
+            this.uuenda_btn.Location = new System.Drawing.Point(559, 310);
             this.uuenda_btn.Name = "uuenda_btn";
             this.uuenda_btn.Size = new System.Drawing.Size(74, 30);
             this.uuenda_btn.TabIndex = 11;
@@ -167,7 +171,7 @@
             this.kustuta_btn.BackColor = System.Drawing.Color.SeaShell;
             this.kustuta_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.kustuta_btn.ForeColor = System.Drawing.Color.Red;
-            this.kustuta_btn.Location = new System.Drawing.Point(14, 292);
+            this.kustuta_btn.Location = new System.Drawing.Point(14, 378);
             this.kustuta_btn.Name = "kustuta_btn";
             this.kustuta_btn.Size = new System.Drawing.Size(161, 30);
             this.kustuta_btn.TabIndex = 12;
@@ -178,7 +182,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(288, 22);
+            this.dataGridView1.Location = new System.Drawing.Point(288, 93);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(496, 147);
             this.dataGridView1.TabIndex = 13;
@@ -189,7 +193,7 @@
             this.Lisa_Kat_btn.BackColor = System.Drawing.Color.SeaShell;
             this.Lisa_Kat_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.Lisa_Kat_btn.ForeColor = System.Drawing.Color.Green;
-            this.Lisa_Kat_btn.Location = new System.Drawing.Point(181, 186);
+            this.Lisa_Kat_btn.Location = new System.Drawing.Point(181, 272);
             this.Lisa_Kat_btn.Name = "Lisa_Kat_btn";
             this.Lisa_Kat_btn.Size = new System.Drawing.Size(161, 30);
             this.Lisa_Kat_btn.TabIndex = 14;
@@ -202,7 +206,7 @@
             this.kustuta_kat_click.BackColor = System.Drawing.Color.SeaShell;
             this.kustuta_kat_click.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.kustuta_kat_click.ForeColor = System.Drawing.Color.Red;
-            this.kustuta_kat_click.Location = new System.Drawing.Point(181, 292);
+            this.kustuta_kat_click.Location = new System.Drawing.Point(181, 378);
             this.kustuta_kat_click.Name = "kustuta_kat_click";
             this.kustuta_kat_click.Size = new System.Drawing.Size(161, 30);
             this.kustuta_kat_click.TabIndex = 15;
@@ -214,7 +218,7 @@
             // 
             this.Kogus_int.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.Kogus_int.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Kogus_int.Location = new System.Drawing.Point(124, 62);
+            this.Kogus_int.Location = new System.Drawing.Point(124, 132);
             this.Kogus_int.Name = "Kogus_int";
             this.Kogus_int.Size = new System.Drawing.Size(145, 20);
             this.Kogus_int.TabIndex = 16;
@@ -229,10 +233,47 @@
             0,
             0,
             131072});
-            this.Hind_float.Location = new System.Drawing.Point(124, 106);
+            this.Hind_float.Location = new System.Drawing.Point(124, 176);
             this.Hind_float.Name = "Hind_float";
             this.Hind_float.Size = new System.Drawing.Size(144, 20);
             this.Hind_float.TabIndex = 17;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(74, 25);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "Varud";
+            // 
+            // sulge
+            // 
+            this.sulge.BackColor = System.Drawing.Color.Red;
+            this.sulge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.sulge.Location = new System.Drawing.Point(83, 3);
+            this.sulge.Name = "sulge";
+            this.sulge.Size = new System.Drawing.Size(34, 33);
+            this.sulge.TabIndex = 23;
+            this.sulge.Text = "X";
+            this.sulge.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.flowLayoutPanel1.Controls.Add(this.label1);
+            this.flowLayoutPanel1.Controls.Add(this.sulge);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(800, 72);
+            this.flowLayoutPanel1.TabIndex = 32;
             // 
             // Form1
             // 
@@ -240,6 +281,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.Hind_float);
             this.Controls.Add(this.Kogus_int);
             this.Controls.Add(this.kustuta_kat_click);
@@ -256,12 +298,15 @@
             this.Controls.Add(this.kogus);
             this.Controls.Add(this.Toode_lbl);
             this.Controls.Add(this.Toode_txt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Tooded";
             ((System.ComponentModel.ISupportInitialize)(this.Toode_pbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Kogus_int)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Hind_float)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,6 +330,9 @@
         private System.Windows.Forms.Button kustuta_kat_click;
         private System.Windows.Forms.NumericUpDown Kogus_int;
         private System.Windows.Forms.NumericUpDown Hind_float;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button sulge;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

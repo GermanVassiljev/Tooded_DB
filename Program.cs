@@ -16,7 +16,7 @@ namespace Tooded_DB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Kassa());
+            Application.Run(new Register());
         }
     }
 }

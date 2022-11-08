@@ -36,6 +36,8 @@
             this.summ_lbl = new System.Windows.Forms.Label();
             this.Tooded_listbox = new System.Windows.Forms.ListBox();
             this.vaata_pdf = new System.Windows.Forms.Button();
+            this.sulge = new System.Windows.Forms.Button();
+            this.head = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Pilt_kassa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -129,12 +131,38 @@
             this.vaata_pdf.UseVisualStyleBackColor = false;
             this.vaata_pdf.Click += new System.EventHandler(this.vaata_pdf_Click);
             // 
+            // sulge
+            // 
+            this.sulge.BackColor = System.Drawing.Color.Red;
+            this.sulge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.sulge.Location = new System.Drawing.Point(756, 12);
+            this.sulge.Name = "sulge";
+            this.sulge.Size = new System.Drawing.Size(32, 30);
+            this.sulge.TabIndex = 14;
+            this.sulge.Text = "X";
+            this.sulge.UseVisualStyleBackColor = false;
+            this.sulge.Click += new System.EventHandler(this.sulge_Click);
+            // 
+            // head
+            // 
+            this.head.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.head.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.head.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.head.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.head.Location = new System.Drawing.Point(-1, -2);
+            this.head.Name = "head";
+            this.head.Size = new System.Drawing.Size(802, 65);
+            this.head.TabIndex = 15;
+            this.head.Text = "Kassa";
+            // 
             // Kassa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sulge);
+            this.Controls.Add(this.head);
             this.Controls.Add(this.vaata_pdf);
             this.Controls.Add(this.Tooded_listbox);
             this.Controls.Add(this.summ_lbl);
@@ -143,6 +171,7 @@
             this.Controls.Add(this.Tooded_lbl);
             this.Controls.Add(this.Pilt_kassa);
             this.Controls.Add(this.Lopp);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Kassa";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.Pilt_kassa)).EndInit();
@@ -163,5 +192,7 @@
         private System.Windows.Forms.Label summ_lbl;
         private System.Windows.Forms.ListBox Tooded_listbox;
         private System.Windows.Forms.Button vaata_pdf;
+        private System.Windows.Forms.Button sulge;
+        private System.Windows.Forms.RichTextBox head;
     }
 }

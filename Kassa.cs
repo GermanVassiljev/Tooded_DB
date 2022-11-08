@@ -73,6 +73,11 @@ namespace Tooded_DB
             System.Diagnostics.Process.Start(@"..\..\Arved\Arve_.pdf");
         }
 
+        private void sulge_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void dataGridView2_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             Tooded_list.Add("-----------------------");
